@@ -1,0 +1,37 @@
+    *{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    h1{
+        margin-top:0;
+        width: 500px;
+    }
+    
+    /*610+(20x2)+(2x2)=654px*/      
+    form {
+            width: 610px;           
+            padding: 20px;                   
+            border: 2px solid black;
+            background-color: rgb(205, 247, 240);
+            margin: 0 auto;
+        }
+        /*200+10+2x2=214*/
+        #horas {
+            width: 200px;           
+            height: 25px;           
+            padding: 5px;/*Separar texto input del borde*/     
+            border: 2px solid blue;
+            
+        }
+        /*200+(5x2)+(2x2)=214*/
+        #informacion {
+            width: 200px;           
+            height: 100px;          
+            padding: 5px;          
+            border: 2px solid green;
+            resize: none;
+            
+        }
+        input[type="checkbox"]
+        {
+            margin-right: 8px;
+        }
