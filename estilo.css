@@ -1,28 +1,69 @@
     *{
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
+    body{
+        margin: 0;              /*así el body mide los 1600px de la ventana*/
+    }
+    h1{
+        margin-top:0;
+        width: 81.9672%;        /*500/610*100=81.9672%*/
+    }
+
+    /*38.125%+(1.25%x2)+(2px x2)=40.625% + 4px = 654px a 1600px*/
+    form {
+            width: 38.125%;     /*610/1600*100=38.125%*/
+            padding: 1.25%;     /*20/1600*100=1.25%*/
+            border: 2px solid black;
+            background-color: rgb(205, 247, 240);
+            margin: 0 auto;
+        }
+    /*32.7869%+(0.8197%x2)+(2px x2)=214px a form de 610px*/
+    #horas {
+            width: 32.7869%;    /*(200/610)*100=32.7869%*/
+            height: 25px;       
+            padding: 0.8197%;   /*(5/610)*100=0.8197%  Separar texto input del borde*/
+            border: 2px solid blue;
+
+        }
+    /*32.7869%+(0.8197%x2)+(2px x2)=214px a form de 610px*/
+    #informacion {
+            width: 32.7869%;    /*200/610*100=32.7869%*/
+            height: 100px;      
+            padding: 0.8197%;   /*5/610*100=0.8197%*/
+            border: 2px solid green;
+            resize: none;
+
+        }
+    input[type="checkbox"]
+    {
+        margin-right: 1.3115%;  /*8/610*100=1.3115%*/
+    }
+
+    /*    {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
     h1{
         margin-top:0;
         width: 500px;
     }
     
-    /*610+(20x2)+(2x2)=654px*/      
+    /*610+(20x2)+(2x2)=654px     
     form {
             width: 610px;           
             padding: 20px;                   
             border: 2px solid black;
             background-color: rgb(205, 247, 240);
             margin: 0 auto;
-        }
-        /*200+10+2x2=214*/
+        }*/ 
+        /*200+10+2x2=214
         #horas {
             width: 200px;           
             height: 25px;           
-            padding: 5px;/*Separar texto input del borde*/     
+            padding: 5px;/*Separar texto input del borde    
             border: 2px solid blue;
-            
+            /* 
         }
-        /*200+(5x2)+(2x2)=214*/
+        /*200+(5x2)+(2x2)=214
         #informacion {
             width: 200px;           
             height: 100px;          
@@ -35,3 +76,4 @@
         {
             margin-right: 8px;
         }
+        */
